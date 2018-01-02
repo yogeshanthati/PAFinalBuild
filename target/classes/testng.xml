@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite configfailurepolicy="continue" name="Suite" parallel="none">
+	<test name=" Smoke suite">
+		<classes>
+			<class name="com.pa.qa.testcases.HomePageTestCase" />
+			
+			<class name="com.pa.qa.testcases.HomePageImageNavigateTest" />
+			
+			<!-- <class name="com.pa.qa.testcases.LogInTest" /> -->
+			
+		</classes>
+	</test>
+</suite>
